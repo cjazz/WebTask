@@ -7,4 +7,11 @@ module.exports = function(context, callback) {
 		callback('Invalid payload. Please check your WebHook configuration in GitHub.');
 	}
 	else  callback(null, { some: 'Completed' });
-}        
+	
+	function (callback){
+		return callback();
+	}
+}     
+
+
+   
