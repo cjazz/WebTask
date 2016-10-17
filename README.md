@@ -1,2 +1,2 @@
 # WebTask
-A node
+A node created for hosting webtasks.
